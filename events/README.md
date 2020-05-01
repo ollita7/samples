@@ -42,3 +42,13 @@ emitter.on(event_name, function(data){
 emitter.emit(event_name, "data information");
 ```
 
+If you run the app.js the output will be:
+
+```bash
+Listeners count: 4
+Something happend event 1 with: data information
+Something happend event 2 with: data information
+Something happend event 3 with: data information
+Something happend event 4 with: data information
+```
+
