@@ -1,5 +1,5 @@
 # Custom Events sample
-Custom sample of event emitter without using default nodejs EventEmitter.
+Sample of event emitter without using default nodejs EventEmitter.
 
 Custom emitter module provide two functionalities: 1) `on` to add a new listener and 2) `emit` to emit some event to all listeners.
 
@@ -41,3 +41,6 @@ emitter.on(event_name, function(data){
 
 emitter.emit(event_name, "data information");
 ```
+
+Code is on that [links](https://github.com/ollita7/samples/tree/master/events).
+
