@@ -42,5 +42,3 @@ emitter.on(event_name, function(data){
 emitter.emit(event_name, "data information");
 ```
 
-Code is on that [links](https://github.com/ollita7/samples/tree/master/events).
-
